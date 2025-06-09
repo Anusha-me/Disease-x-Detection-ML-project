@@ -1,0 +1,39 @@
+# Model Summary – Disease X Detection
+Author: Anusha Durgam
+
+## 📦 Deliverable 1: SVM & XGBoost
+
+• Support Vector Machine (SVM):
+  - Performed well in high-dimensional space
+  - Robust against overfitting
+  - Strong ROC-AUC and classification accuracy
+
+• XGBoost Classifier:
+  - Handled missing data well
+  - High accuracy with good precision/recall
+  - Slightly outperformed SVM in AUC but required more tuning
+
+• Resampling: Stratified K-Fold CV (preserves class balance)
+• Best Accuracy: SVM across folds
+
+---
+
+## 📦 Deliverable 2: RNN & LightGBM
+
+• Recurrent Neural Network (RNN):
+  - Captured nonlinear patterns
+  - Higher overall accuracy
+  - Computationally more intensive
+
+• LightGBM:
+  - Very efficient and scalable
+  - Performed well on precision
+  - Easier to interpret
+
+• Resampling: Stratified K-Fold CV
+• Best Generalization: RNN (balanced performance)
+
+---
+
+## ✅ Final Insight:
+Across all 4 models tested, **SVM** from Deliverable 1 showed the best accuracy and generalization, making it the most reliable for deployment in real-world detection scenarios.
